@@ -51,7 +51,8 @@
 			"purpose": "monochrome"
 		}
 	],
-	"start_url": "./",
+	"start_url": "./lessons-3rd/",
+	"scope": "./",
 	"background_color": "#f60",
 	"display": "minimal-ui",
 	"theme_color": "#f60",

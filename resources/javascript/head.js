@@ -1,4 +1,3 @@
-alert("TODO service worker code");
 // # MODIFICATIONS FOR ALL PAGES (<HEAD>) #
 (function (window, document) {
   'use strict';
@@ -658,5 +657,11 @@ alert("TODO service worker code");
   if (!navigator.cookieEnabled) {
     console.warn('Cookies are not available either due to host or browser settings. Genki Study Resources will function in limited mode where settings are not remembered and certain features are unavailable. This issue can commonly be resolved by enabling third-party cookies. Please see the following page for help.\nhttps://sethclydesdale.github.io/genki-study-resources/help/stuck-loading/\n\nIf the issue still occurs after enabling third-party cookies, please contact the developer for further assistance.\nhttps://github.com/SethClydesdale/genki-study-resources/issues');
   }
+
+  window.addEventListener("load", () => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register(getPaths() + "worker.js");
+    }
+  });
   
 }(window, document));
