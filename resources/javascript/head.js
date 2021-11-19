@@ -1,3 +1,4 @@
+alert("TODO service worker code");
 // # MODIFICATIONS FOR ALL PAGES (<HEAD>) #
 (function (window, document) {
   'use strict';

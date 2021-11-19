@@ -1,0 +1,71 @@
+{
+	"short_name": "Genki",
+	"name": "Genki Study Resources",
+	"icons": [
+		{
+			"src": "resources/images/genki-thumb-120.png",
+			"type": "image/png",
+			"sizes": "120x120",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "resources/images/genki-thumb-192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "resources/images/genki-thumb-200.png",
+			"type": "image/png",
+			"sizes": "200x200",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "resources/images/genki-thumb.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "resources/images/genki-120.png",
+			"type": "image/png",
+			"sizes": "120x120",
+			"purpose": "monochrome"
+		},
+		{
+			"src": "resources/images/genki-192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "monochrome"
+		},
+		{
+			"src": "resources/images/genki-200.png",
+			"type": "image/png",
+			"sizes": "200x200",
+			"purpose": "monochrome"
+		},
+		{
+			"src": "resources/images/genki.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "monochrome"
+		}
+	],
+	"start_url": "./",
+	"background_color": "#f60",
+	"display": "minimal-ui",
+	"theme_color": "#f60",
+	"shortcuts": [
+		{
+			"name": "2nd Edition",
+			"url": "./"
+		},
+		{
+			"name": "3rd Edition",
+			"url": "lessons-3rd/"
+		}
+	],
+	"description": "Genki Study Resources offers a vast collection of exercises for practicing what is taught in Genki: An Integrated Course in Elementary Japanese.",
+	"categories": ["education"],
+	"lang": "en"
+}
