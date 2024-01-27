@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>This fork is dead</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      :root {
+        background-color: #f93;
+        color: #fff;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      This fork of <i>Genki Study Resources</i> is no longer being updated.<br/>Please use <a href="https://sethclydesdale.github.io/genki-study-resources">Seth Clydesdale's original version</a> instead.
+    </h1>
+
+    <script>
+      setTimeout(() => {
+        let pathname = window.location.pathname;
+        if (!pathname.startsWith('/genki-study-resources')) {
+          pathname = '/genki-study-resources';
+        }
+        window.location = 'https://sethclydesdale.github.io' + pathname;
+      }, 2500);
+    </script>
+  </body>
+</html>
